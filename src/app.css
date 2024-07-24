@@ -1,0 +1,186 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.identity-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF7143;
+    padding: 7%;
+    text-align: left;
+}
+
+.identity-header h1{
+    font-size: 72px;
+}
+
+main p {
+    font-size: 24px;
+}
+
+.biography-link{
+    background-color: #000000;
+    color: wheat;
+    text-decoration: none;
+    width: 100px;
+    padding: 2%;
+}
+.identity-body div:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.identity-body img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    padding: 2%;
+    margin-left: 50px;
+}
+
+.identity-body ul{
+    list-style: none;
+}
+
+.identity-body a{
+    text-decoration: none;
+    color: black;
+}
+
+.identity-body a:hover{
+    color: #b2411b;
+}
+
+.quote{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 400px;
+} 
+.quote-text{
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 3%;
+}
+
+.story-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    text-align: left;
+    background-color: #FF7143;
+}
+
+.link{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.the-father:hover{
+    color: #732409;
+}
+
+.story-body{
+    display: flex;
+    padding: 6%;
+    color: white;
+    background-color: black;
+}
+
+.story-body h3{
+    padding: 2%;
+    font-size: 30px;
+    margin: -6%;
+}
+
+.story-body p{
+    font-size: 20px;
+    max-width: 45%;
+    padding: 1%;
+}
+.story-body li{
+    text-align: left;
+    
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .powered-by p{
+    padding: 1%;
+}
+
+footer .powered-by p:nth-child(2), p:nth-child(5){
+    color: orangered;
+    font-weight: 700;
+}
+footer .powered-by {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer .powered-by img {
+    width: 20px;
+    height: auto;
+    margin: 10px 0;
+}
