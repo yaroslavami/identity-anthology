@@ -5,7 +5,7 @@ const Biography = () => {
         <div>
             <div className='story-header'>
                 <h1>Annotated bibliography</h1>
-                <a className='link' href='https://thisibelieve.org/essay/29905/'>See the document</a>
+                <a className='link' href='https://docs.google.com/document/d/1-ypR-Zx0wR6U1GfIUdi4MnvjpRu2qcbFbnG6JWaJpLw/edit?usp=sharing'>See the document</a>
             </div>
             <div className='story-body'>
                 <ul>
